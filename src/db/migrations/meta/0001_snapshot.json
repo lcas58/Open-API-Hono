@@ -1,11 +1,11 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "a7563a4a-57ce-4398-959b-99d7efc08ae3",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "64dabc30-1c19-4617-895f-c600e1e3005b",
+  "prevId": "a7563a4a-57ce-4398-959b-99d7efc08ae3",
   "tables": {
-    "tasks_table": {
-      "name": "tasks_table",
+    "tasks": {
+      "name": "tasks",
       "columns": {
         "id": {
           "name": "id",
@@ -53,7 +53,9 @@
   "enums": {},
   "_meta": {
     "schemas": {},
-    "tables": {},
+    "tables": {
+      "\"tasks_table\"": "\"tasks\""
+    },
     "columns": {}
   },
   "internal": {
